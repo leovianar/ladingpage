@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        header{
+            background-color: darkcyan;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(58, 58, 58);
+            padding: 5px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 20px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: darkcyan;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        footer{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        article{
+            background-color: azure;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: bisque;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1>ForneceAqui</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Cadastra</a>
+            <a href="#">Login</a>
+            <a href="#">Sobre</a>
+            <a href="#">Forcedores</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="Assuntos"> 
+            <p>Esporte e tecnologia</p>
+        </section>
+        <section id="Noticiais"> 
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit.</b> Id nisi ut architecto, facilis consectetur laudantium possimus corrupti minima quos, dicta sed debitis sit voluptatem fugit tempora perferendis eveniet maxime ratione?</p>
+                    <aside>
+                        <p>Artigo escrito por Jose da Silva</p>
+                    </aside>
+            </article>
+                
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nisi ut architecto, facilis consectetur laudantium possimus corrupti minima quos, dicta sed debitis sit voluptatem fugit tempora perferendis eveniet maxime ratione?</p>
+                    <aside>
+                        <p>Artigo escrito por Jose da Silva</p>
+                    </aside>
+            </article>
+
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nisi ut architecto, facilis consectetur laudantium possimus corrupti minima quos, dicta sed debitis sit voluptatem fugit tempora perferendis eveniet maxime ratione?</p>
+                    <aside>
+                        <p>Artigo escrito por Jose da Silva</p>
+                    </aside>
+            </article>
+
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nisi ut architecto, facilis consectetur laudantium possimus corrupti minima quos, dicta sed debitis sit voluptatem fugit tempora perferendis eveniet maxime ratione?</p>
+                    <aside>
+                        <p>Artigo escrito por Jose da Silva</p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os diretos reservados</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(123, 168, 77);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: darkgreen;
+}
+
+h1#principal {
+     text-align: center;
+     background-color: dimgray;
+     color: white;
+}
+
+h1#neutro {
+    text-align: center;
+}
+
+h2{
+    color: darkslategray;
+}
+
+p.martelo {
+    text-align: center;
+}

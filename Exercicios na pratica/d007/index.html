@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+
+<style type="text/css">
+    p, h1, h2, h3, h4, div {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+
+        text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+    
+    <h1>Criando uma imagem flexivel</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aspernatur eum veritatis, suscipit pariatur iure architecto id! Magnam, dolorem obcaecati quo perferendis sunt, illum dolore alias non beatae voluptatum illo! &#x1F600;</p>
+
+<div>
+    <picture> 
+        
+
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+
+        <img src="imagens/paisagem-g.png" alt="Imagem p flexivel">
+
+        
+    </picture>
+</div>
+
+</body>
+</html>
