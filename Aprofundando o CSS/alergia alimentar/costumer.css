@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background-color: rgba(137, 43, 226, 0.356);
+}
+
+div{
+    width: 600px;
+    margin: 50px auto;
+    
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #313131;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+}
+
+img{
+    width: 298px;
+    border-radius: 15px;
+    
+    
+}
+
+p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+span{
+    background-color: crimson;
+    border-radius: 7px 7px 7px 7px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+}
+
+.logo{
+    width: 600px;
+    margin: 50px auto;
+}
+
